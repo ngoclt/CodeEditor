@@ -7,7 +7,7 @@ let package = Package(
   name: "CodeEditor",
 
   platforms: [
-    .macOS(.v10_15), .iOS(.v13)
+    .macOS(.v12), .iOS(.v15)
   ],
 
   products: [
