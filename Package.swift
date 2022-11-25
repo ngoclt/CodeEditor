@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.7
 
 import PackageDescription
 
@@ -15,7 +15,7 @@ let package = Package(
   ],
   
   dependencies: [
-    .package(url: "https://github.com/raspu/Highlightr", from: "2.1.2")
+    .package(url: "https://github.com/ngoclt/Highlightr", branch: "master")
   ],
            
   targets: [
